@@ -4,4 +4,30 @@
     justify-content: space-between;
     margin: 40px;
   }
-  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+  @keyframes animateHeading {
+    0% {
+        transform: scale(1);
+        color: #000;
+    }
+    50% {
+        transform: scale(1.1);
+        color: #efe6f3;
+    }
+    100% {
+        transform: scale(1);
+        color: #140d0d;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    animation: animateHeading 2s infinite;
+}

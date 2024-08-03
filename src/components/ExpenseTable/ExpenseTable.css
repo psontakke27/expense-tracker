@@ -153,15 +153,15 @@
   }
   
   .edit-btn {
-    color: #4caf50; /* Green */
+    color: #377444; /* Green */
   }
   
   .delete-btn {
-    color: #f44336; /* Red */
+    color: #c71c10; /* Red */
   }
   
   .action-btn:hover {
-    opacity: 0.7;
+    opacity: 0.8;
   }
   
   .glassmorphism {

@@ -43,7 +43,7 @@ function Dashboard() {
 
   return (
     <div className="dashboard-container">
-      <h1>Expense Tracker</h1>
+      <h1>Personal Expense Tracker </h1>
       <WalletExpensesComponent
         handleExpenseListUpdate={handleExpenseListUpdate}
         categories={categories}
